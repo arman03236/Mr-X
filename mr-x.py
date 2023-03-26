@@ -207,7 +207,7 @@ def rcrack(uid,pwx,tl):
 			'scheme': 'https',
 			 'authority': 'developer .facebook.com',
     'x-fb-rlafr': '0',
-    'access-control-allow-origin': *',
+    'access-control-allow-origin':'*',
     'facebook-api-version': 'v16.0',
     'strict-transport-security': 'max-age=15552000',
     'pragma': 'no-cache',
